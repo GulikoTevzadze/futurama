@@ -1,3 +1,71 @@
 * {
   box-sizing: border-box;
 }
+body {
+  margin: 0;
+  background-color: #20126d;
+}
+
+.hero {
+  margin: 15px;
+}
+.hero img {
+width: 100%;
+}
+.main-content {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.slogan {
+  font-size: 40px;
+  color: rgb(165, 192, 216);
+}
+p, h2, h3, h4 {
+  color: rgb(165, 192, 216);
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+.block-Characters {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.aside {
+  min-width: 250px;
+  padding: 0 20px;
+  position: sticky;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 15px;
+}
+li:last-child {
+  margin: 0;
+}
+a {
+  all: unset;
+  color: rgb(165, 192, 216);
+}
+
+img {
+  width: 431px;
+}
